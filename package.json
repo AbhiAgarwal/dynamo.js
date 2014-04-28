@@ -44,7 +44,8 @@
     "express-session": "^1.0.4",
     "body-parser": "^1.0.2",
     "cookie-parser": "^1.0.1",
-    "passport-facebook": "^1.0.3"
+    "passport-facebook": "^1.0.3",
+    "lusca": "^1.0.0"
   },
   "peerDependencies": {
     "express": "~3.4"

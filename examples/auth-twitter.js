@@ -6,7 +6,7 @@ var dynamo = require('../lib/core');
 dynamo.initialize();
 
 // Router
-dynamo.twitterAuth(function(token, tokenSecret, profile, done){
+dynamo.twitterAuth(function (token, tokenSecret, profile, done) {
     console.log(token);
     done(null, null);
 });
