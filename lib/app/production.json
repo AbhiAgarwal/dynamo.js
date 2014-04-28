@@ -2,8 +2,9 @@
     "applicationName": "",
     "NODE_ENV": "production",
     "host": "",
-    "port": "",
+    "port": "8000",
     "baseURL": "",
+    "cookieParser": "123",
     "databaseConfig": {
         "host": "",
         "database": ""
@@ -13,6 +14,18 @@
     },
     "oauth-twitter": {
         "key": "",
-        "secret": ""
+        "secret": "",
+        "base": "/auth/twitter",
+        "success": "/",
+        "failure": "/login",
+        "callback": "/auth/twitter/callback"
+    },
+    "oauth-facebook": {
+        "id": "",
+        "secret": "",
+        "base": "/auth/facebook",
+        "success": "/",
+        "failure": "/login",
+        "callback": "/auth/facebook/callback"
     }
 }
