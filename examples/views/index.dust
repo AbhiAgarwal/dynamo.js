@@ -1,0 +1,11 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>{+title}Dynamo{/title}</title>
+    {+http_header/}
+</head>
+<body>
+    {title}
+</body>
+</html>

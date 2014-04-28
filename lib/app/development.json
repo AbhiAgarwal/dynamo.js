@@ -9,6 +9,7 @@
         "host": "",
         "database": ""
     },
+    "viewEngine": "dust",
     "oauth-twitter": {
         "key": "",
         "secret": "",

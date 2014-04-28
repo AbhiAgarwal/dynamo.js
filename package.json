@@ -45,7 +45,12 @@
     "body-parser": "^1.0.2",
     "cookie-parser": "^1.0.1",
     "passport-facebook": "^1.0.3",
-    "lusca": "^1.0.0"
+    "lusca": "^1.0.0",
+    "debug": "0.8.0",
+    "parseurl": "1.0.1",
+    "escape-html": "1.0.1",
+    "utils-merge": "1.0.0",
+    "consolidate": "^0.10.0"
   },
   "peerDependencies": {
     "express": "~3.4"
@@ -68,6 +73,7 @@
     "makara": "~0.3.0",
     "supertest": "~0.8.1",
     "express": "~3.4",
-    "grunt-jsonlint": "^1.0.4"
+    "grunt-jsonlint": "^1.0.4",
+    "should": "~3.3.0"
   }
 }
