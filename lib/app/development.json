@@ -1,0 +1,18 @@
+{
+    "applicationName": "",
+    "NODE_ENV": "development",
+    "host": "",
+    "port": "",
+    "baseURL": "",
+    "databaseConfig": {
+        "host": "",
+        "database": ""
+    },
+    "bcrypt": {
+        "difficulty": 8
+    },
+    "oauth-twitter": {
+        "key": "",
+        "secret": ""
+    }
+}
