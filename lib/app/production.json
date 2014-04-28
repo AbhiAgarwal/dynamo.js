@@ -1,5 +1,5 @@
 {
-    "applicationName": "",
+    "name": "",
     "NODE_ENV": "production",
     "host": "",
     "port": "8000",

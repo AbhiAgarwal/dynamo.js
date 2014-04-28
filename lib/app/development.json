@@ -1,5 +1,5 @@
 {
-    "applicationName": "",
+    "name": "dynamo",
     "NODE_ENV": "development",
     "host": "",
     "port": "8000",
