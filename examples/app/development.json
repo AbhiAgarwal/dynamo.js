@@ -10,6 +10,8 @@
         "database": ""
     },
     "viewEngine": "dust",
+    "publicFolder": "/public",
+    "viewFolder": "/views",
     "oauth-twitter": {
         "key": "",
         "secret": "",

@@ -3,7 +3,7 @@
 var dynamo = require('../lib/core');
 
 // Initialization
-dynamo.initialize();
+dynamo.initialize(__dirname);
 
 // Router
 dynamo.route('/', function (req, res) {
