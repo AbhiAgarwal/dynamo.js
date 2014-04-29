@@ -6,7 +6,7 @@ var dynamo = require('../lib/core');
 dynamo.initialize(__dirname);
 
 // Router
-dynamo.route('/', function (req, res) {
+dynamo.route('/', function(req, res) {
     res.render('index', {
         title: 'Dynamo'
     });

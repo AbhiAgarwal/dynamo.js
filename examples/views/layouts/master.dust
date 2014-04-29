@@ -3,11 +3,10 @@
 <head>
     <meta charset="utf-8"/>
     <title>{title}</title>
-
+    <link rel="stylesheet" href="stylesheets/style.css">
+    <script src="javascripts/dust-core-0.3.0.min.js"></script>
 </head>
 <body>
-    <div class="wrapper">
-        {+body /}
-    </div>
+    {+body /}
 </body>
 </html>
