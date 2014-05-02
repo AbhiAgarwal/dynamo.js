@@ -24,8 +24,8 @@
     "publicFolder": "/public",
     "viewFolder": "/views",
     "oauth-twitter": {
-        "key": "",
-        "secret": "",
+        "key": "GFplXdEtZ9uZeFNI5XbKOMxGw",
+        "secret": "SXAEjr0AuTxKwg45uMRIEQgYp1xVFIDTpUwKfuIysImmO9emqp",
         "base": "/auth/twitter",
         "success": "/",
         "failure": "/login",

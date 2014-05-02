@@ -6,9 +6,13 @@ var dynamo = require('../lib/core');
 dynamo.initialize(__dirname);
 
 // Router
-dynamo.twitterAuth(function(token, tokenSecret, profile, done) {
-    console.log(token);
-    done(null, null);
+// Callback: What happens when the user is NOT DEFINED.
+// If the user IS DEFINED then it carries on with the redirect
+dynamo.twitterAuth(function(token, tokenSecret, profile, done, User) {
+    // User does not exist so we create a user
+    // Just return NULL so user is not added
+    // So we say we're done with the User
+    done(null, User.create(profile));
 });
 
 // Run
