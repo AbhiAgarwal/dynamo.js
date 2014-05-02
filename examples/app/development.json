@@ -1,15 +1,26 @@
 {
     "name": "dynamo",
     "NODE_ENV": "development",
-    "host": "",
+    "host": "http://localhost",
     "port": "8000",
-    "baseURL": "http://lvh.me:8000",
+    "baseURL": "http://localhost:8000",
     "cookieParser": "123",
-    "databaseConfig": {
-        "host": "",
-        "database": ""
+    "db-choice": "mongo",
+    "databaseConfig-mongo": {
+        "host": "localhost",
+        "database": "dev"
     },
-    "viewEngine": "dust",
+    "lusca": {
+        "csrf": true,
+        "csp": false,
+        "xframe": "SAMEORIGIN",
+        "p3p": "ABCDEF",
+        "hsts": {
+            "maxAge": 31536000,
+            "includeSubDomains": true
+        },
+        "xssProtection": true
+    },
     "publicFolder": "/public",
     "viewFolder": "/views",
     "oauth-twitter": {

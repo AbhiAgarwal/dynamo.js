@@ -7,7 +7,7 @@ dynamo.initialize(__dirname);
 
 // Router
 dynamo.route('/', function(req, res) {
-    res.render('public-example', {
+    res.render('dust-example', {
         title: 'Dynamo',
         info: 'hello'
     });

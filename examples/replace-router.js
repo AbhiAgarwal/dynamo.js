@@ -13,5 +13,12 @@ dynamo.route('/', function(req, res) {
     });
 });
 
+dynamo.route('/', function(req, res) {
+    res.render('public-example', {
+        title: 'Dynamo',
+        info: 'hello-replacement'
+    });
+});
+
 // Run
 dynamo.run();

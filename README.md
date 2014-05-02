@@ -14,3 +14,8 @@ using
 
 + Express
 + Dust
+
+thoughts
+----
+
++ able to re-write requests/paths

@@ -1,5 +1,6 @@
 {>"layouts/master" /}
 
 {<body}
-    <p>hello</p>
+    <p>{info}</p>
 {/body}
+
