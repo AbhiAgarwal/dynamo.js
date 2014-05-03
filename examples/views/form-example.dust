@@ -1,0 +1,10 @@
+{>"layouts/master" /}
+
+{<body}
+<form method="post" action="/submitForm">
+    <input type="text" name="user[name]">
+    <input type="text" name="user[email]">
+    <input type="hidden" name="_csrf" value="{_csrf}">
+    <input type="submit" value="Submit">
+</form>
+{/body}
