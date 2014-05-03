@@ -1,14 +1,14 @@
 {
     "name": "dynamo",
     "NODE_ENV": "development",
-    "host": "http://localhost",
+    "host": "http://lvh.me:8000",
     "port": "8000",
-    "baseURL": "http://localhost:8000",
+    "baseURL": "http://lvh.me:8000",
     "cookieParser": "123",
     "db-choice": "mongo",
     "databaseConfig-mongo": {
         "host": "localhost",
-        "database": "dev"
+        "database": "dev2"
     },
     "lusca": {
         "csrf": true,
@@ -32,8 +32,8 @@
         "callback": "/auth/twitter/callback"
     },
     "oauth-facebook": {
-        "id": "",
-        "secret": "",
+        "id": "1478824522347736",
+        "secret": "1ec7da0e6c8e4e1a4458b881f520649a",
         "base": "/auth/facebook",
         "success": "/",
         "failure": "/login",
