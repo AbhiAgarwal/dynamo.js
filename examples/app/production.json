@@ -1,17 +1,28 @@
 {
-    "name": "",
+    "name": "dynamo",
     "NODE_ENV": "production",
     "host": "",
-    "port": "8000",
+    "port": "",
     "baseURL": "",
-    "cookieParser": "123",
-    "databaseConfig": {
+    "cookieParser": "",
+    "db-choice": "",
+    "databaseConfig-mongo": {
         "host": "",
         "database": ""
     },
-    "bcrypt": {
-        "difficulty": 8
+    "lusca": {
+        "csrf": true,
+        "csp": false,
+        "xframe": "SAMEORIGIN",
+        "p3p": "ABCDEF",
+        "hsts": {
+            "maxAge": 31536000,
+            "includeSubDomains": true
+        },
+        "xssProtection": true
     },
+    "publicFolder": "/",
+    "viewFolder": "/",
     "oauth-twitter": {
         "key": "",
         "secret": "",
