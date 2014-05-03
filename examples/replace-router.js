@@ -6,14 +6,14 @@ var dynamo = require('../lib/core');
 dynamo.initialize(__dirname);
 
 // Router
-dynamo.route('/', function(req, res) {
+dynamo.route('get', '/', function(req, res) {
     res.render('public-example', {
         title: 'Dynamo',
         info: 'hello'
     });
 });
 
-dynamo.route('/', function(req, res) {
+dynamo.route('get', '/', function(req, res) {
     res.render('public-example', {
         title: 'Dynamo',
         info: 'hello-replacement'
