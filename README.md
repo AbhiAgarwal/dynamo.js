@@ -5,6 +5,10 @@ dynamo
 
 <p>A very rough version of what I think an ideal framework looks like to me. This will go through major changes as I start using it in my own projects, and to test out areas where the tools presented here will not work.</p>
 
+**Aim**
+
+<p>My aim is to create a framework that will allow me to create and implement projects faster, and with less boilerplate code. Things like OAuth, User Creation will be dealt with, and I will be able to get started a lot faster.</p>
+
 <p>The things I think are essential are:</p>
 
 + Easy configuration
